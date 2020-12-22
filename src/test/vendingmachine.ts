@@ -20,4 +20,10 @@ function UserInputMoney(price: number, paid: number): void {
 }
 
 UserInputMoney(500, 1000);
+UserInputMoney(110, 500);
+UserInputMoney(120, 300);
+UserInputMoney(90, 100);
+UserInputMoney(200, 100);
+UserInputMoney(130, 200);
+UserInputMoney(180, 1000);
 
