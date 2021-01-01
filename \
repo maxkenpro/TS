@@ -1,7 +1,0 @@
-const fruits: string[] = ['apple', 'banana', 'Grape']
-fruits.push('melon');
-
-console.log(fruits);
-
-const fruit = fruits(0);
-console.log(fruit);

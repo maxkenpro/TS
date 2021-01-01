@@ -1,0 +1,5 @@
+class Janken {
+  Player_Gu: 0;
+  Player_Choki: 1;
+  Player_Pa: 2;
+}
