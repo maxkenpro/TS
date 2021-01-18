@@ -1,16 +1,20 @@
-class Janken {
-  player_hand: 0 | 1 | 2;
-  enemy_hand: 0 | 1 | 2;
+import { Game } from './game'
 
-  constructor(initPlayer_hand: 0 | 1 | 2, initEnemy_hand: 0 | 1 | 2) {
-    this.player_hand = initPlayer_hand;
-    this.enemy_hand = initEnemy_hand;
+//ゲームの最終的な起動
+
+class Janken {
+  //Userからインプットしてもらう
+  user_input: 0 | 1 | 2;
+  game: Game
+ 
+  //初期化
+  constructor(user_input: 0 | 1 | 2) {
+    this.user_input = user_input;
+    this.game = new Game()
   }
   
-  notification () {
-    console.log(`あなたの手札は${this.player_hand}です`);
+  public initGame (): void {
+    this.game(this.user_input);
   }
 }
 
-const Gu = new Janken(2);
-Gu.notification();

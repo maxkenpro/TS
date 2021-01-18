@@ -1,7 +1,7 @@
 {
-  "name": "TS",
+  "name": "ts",
   "version": "0.0.0",
-  "description": "",
+  "description": "TypeScript練習用のリポジトリです。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^14.14.21",
     "@typescript-eslint/eslint-plugin": "^4.8.2",
     "@typescript-eslint/parser": "^4.8.2",
     "eslint": "^7.14.0",
     "typescript": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkenpro/TS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxkenpro/TS/issues"
+  },
+  "homepage": "https://github.com/maxkenpro/TS#readme",
+  "dependencies": {
+    "prompt": "^1.1.0",
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1"
   }
 }
